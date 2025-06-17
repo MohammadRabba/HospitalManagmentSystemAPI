@@ -41,7 +41,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
         ValidateIssuer = false,
         ValidateIssuerSigningKey=true,
 
-        ValidateLifetime = true,
+        ValidateLifetime = true,//23849242
         ValidateAudience = false,
         IssuerSigningKey= securityKey
     };
